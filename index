@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Mi Restaurante</h1>
+    </header>
+
+    <nav>
+        <a href="#entrantes">Entrantes</a>
+        <a href="#principal">Principal</a>
+        <a href="#postres">Postres</a>
+    </nav>
+
+    <div class="content" id="entrantes">
+        <h2>Entrantes</h2>
+        <p>Aquí va la información sobre los entrantes.</p>
+    </div>
+
+    <div class="content" id="principal">
+        <h2>Principal</h2>
+        <p>Aquí va la información sobre los platos principales.</p>
+    </div>
+
+    <div class="content" id="postres">
+        <h2>Postres</h2>
+        <p>Aquí va la información sobre los postres.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Restaurante. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
